@@ -7,6 +7,7 @@ public class Greeting {
 
     private String greeting;
     private String specialization;
+    private Book[] books;
 
     public String getGreeting() {
         return greeting;
@@ -22,6 +23,14 @@ public class Greeting {
 
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
+    }
+
+    public Book[] getBooks() {
+        return books;
+    }
+
+    public void setBooks(Book[] books) {
+        this.books = books;
     }
 
 }
